@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06719C691B9FD98C003AD6A8 /* libDecorator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06719C5D1B9FD98C003AD6A8 /* libDecorator.a */; };
+		06719CB91B9FE4C3003AD6A8 /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06719CB81B9FE4C3003AD6A8 /* ImageFilter.m */; };
+		06719CC71B9FE6FC003AD6A8 /* UIImage+ImageComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 06719CC61B9FE6FC003AD6A8 /* UIImage+ImageComponent.m */; };
+		06719CCA1BA00D94003AD6A8 /* ImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06719CC91BA00D94003AD6A8 /* ImageTransformFilter.m */; };
+		06719CCD1BA01143003AD6A8 /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 06719CCC1BA01143003AD6A8 /* ImageShadowFilter.m */; };
+		06719CD01BA012D6003AD6A8 /* DecoratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06719CCF1BA012D6003AD6A8 /* DecoratorViewController.m */; };
+		06719CD51BA01935003AD6A8 /* DecoratorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06719CD41BA01935003AD6A8 /* DecoratorView.m */; };
+		06719CD71BA01C7F003AD6A8 /* DecoratorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06719CD41BA01935003AD6A8 /* DecoratorView.m */; };
+		06719CE01BA02F1A003AD6A8 /* haomei.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = 06719CDF1BA02EFB003AD6A8 /* haomei.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06719C6A1B9FD98C003AD6A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06719C551B9FD98C003AD6A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06719C5C1B9FD98C003AD6A8;
+			remoteInfo = Decorator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06719C5B1B9FD98C003AD6A8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = DesignMode.app;
+			dstSubfolderSpec = 16;
+			files = (
+				06719CE01BA02F1A003AD6A8 /* haomei.png in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06719C5D1B9FD98C003AD6A8 /* libDecorator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDecorator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06719C681B9FD98C003AD6A8 /* DecoratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecoratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06719C6E1B9FD98C003AD6A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06719CB71B9FE4C3003AD6A8 /* ImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
+		06719CB81B9FE4C3003AD6A8 /* ImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFilter.m; sourceTree = "<group>"; };
+		06719CC41B9FE6E2003AD6A8 /* ImageComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageComponent.h; sourceTree = "<group>"; };
+		06719CC51B9FE6FC003AD6A8 /* UIImage+ImageComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageComponent.h"; sourceTree = "<group>"; };
+		06719CC61B9FE6FC003AD6A8 /* UIImage+ImageComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageComponent.m"; sourceTree = "<group>"; };
+		06719CC81BA00D94003AD6A8 /* ImageTransformFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransformFilter.h; sourceTree = "<group>"; };
+		06719CC91BA00D94003AD6A8 /* ImageTransformFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTransformFilter.m; sourceTree = "<group>"; };
+		06719CCB1BA01143003AD6A8 /* ImageShadowFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageShadowFilter.h; sourceTree = "<group>"; };
+		06719CCC1BA01143003AD6A8 /* ImageShadowFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageShadowFilter.m; sourceTree = "<group>"; };
+		06719CCE1BA012D6003AD6A8 /* DecoratorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecoratorViewController.h; path = Decorator/DecoratorViewController.h; sourceTree = "<group>"; };
+		06719CCF1BA012D6003AD6A8 /* DecoratorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DecoratorViewController.m; path = Decorator/DecoratorViewController.m; sourceTree = "<group>"; };
+		06719CD31BA01935003AD6A8 /* DecoratorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecoratorView.h; sourceTree = "<group>"; };
+		06719CD41BA01935003AD6A8 /* DecoratorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecoratorView.m; sourceTree = "<group>"; };
+		06719CDF1BA02EFB003AD6A8 /* haomei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haomei.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06719C5A1B9FD98C003AD6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06719C651B9FD98C003AD6A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06719C691B9FD98C003AD6A8 /* libDecorator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06719C541B9FD98C003AD6A8 = {
+			isa = PBXGroup;
+			children = (
+				06719CCE1BA012D6003AD6A8 /* DecoratorViewController.h */,
+				06719CCF1BA012D6003AD6A8 /* DecoratorViewController.m */,
+				06719CD31BA01935003AD6A8 /* DecoratorView.h */,
+				06719CD41BA01935003AD6A8 /* DecoratorView.m */,
+				06719CDF1BA02EFB003AD6A8 /* haomei.png */,
+				06719C5F1B9FD98C003AD6A8 /* Decorator */,
+				06719C6C1B9FD98C003AD6A8 /* DecoratorTests */,
+				06719C5E1B9FD98C003AD6A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06719C5E1B9FD98C003AD6A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06719C5D1B9FD98C003AD6A8 /* libDecorator.a */,
+				06719C681B9FD98C003AD6A8 /* DecoratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06719C5F1B9FD98C003AD6A8 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				06719CC41B9FE6E2003AD6A8 /* ImageComponent.h */,
+				06719CC51B9FE6FC003AD6A8 /* UIImage+ImageComponent.h */,
+				06719CC61B9FE6FC003AD6A8 /* UIImage+ImageComponent.m */,
+				06719CB71B9FE4C3003AD6A8 /* ImageFilter.h */,
+				06719CB81B9FE4C3003AD6A8 /* ImageFilter.m */,
+				06719CC81BA00D94003AD6A8 /* ImageTransformFilter.h */,
+				06719CC91BA00D94003AD6A8 /* ImageTransformFilter.m */,
+				06719CCB1BA01143003AD6A8 /* ImageShadowFilter.h */,
+				06719CCC1BA01143003AD6A8 /* ImageShadowFilter.m */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
+		06719C6C1B9FD98C003AD6A8 /* DecoratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				06719C6D1B9FD98C003AD6A8 /* Supporting Files */,
+			);
+			path = DecoratorTests;
+			sourceTree = "<group>";
+		};
+		06719C6D1B9FD98C003AD6A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06719C6E1B9FD98C003AD6A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06719C5C1B9FD98C003AD6A8 /* Decorator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06719C711B9FD98C003AD6A8 /* Build configuration list for PBXNativeTarget "Decorator" */;
+			buildPhases = (
+				06719C591B9FD98C003AD6A8 /* Sources */,
+				06719C5A1B9FD98C003AD6A8 /* Frameworks */,
+				06719C5B1B9FD98C003AD6A8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Decorator;
+			productName = Decorator;
+			productReference = 06719C5D1B9FD98C003AD6A8 /* libDecorator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		06719C671B9FD98C003AD6A8 /* DecoratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06719C741B9FD98C003AD6A8 /* Build configuration list for PBXNativeTarget "DecoratorTests" */;
+			buildPhases = (
+				06719C641B9FD98C003AD6A8 /* Sources */,
+				06719C651B9FD98C003AD6A8 /* Frameworks */,
+				06719C661B9FD98C003AD6A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06719C6B1B9FD98C003AD6A8 /* PBXTargetDependency */,
+			);
+			name = DecoratorTests;
+			productName = DecoratorTests;
+			productReference = 06719C681B9FD98C003AD6A8 /* DecoratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06719C551B9FD98C003AD6A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = __Nature__;
+				TargetAttributes = {
+					06719C5C1B9FD98C003AD6A8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					06719C671B9FD98C003AD6A8 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 06719C581B9FD98C003AD6A8 /* Build configuration list for PBXProject "Decorator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06719C541B9FD98C003AD6A8;
+			productRefGroup = 06719C5E1B9FD98C003AD6A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06719C5C1B9FD98C003AD6A8 /* Decorator */,
+				06719C671B9FD98C003AD6A8 /* DecoratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06719C661B9FD98C003AD6A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06719C591B9FD98C003AD6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06719CD71BA01C7F003AD6A8 /* DecoratorView.m in Sources */,
+				06719CCA1BA00D94003AD6A8 /* ImageTransformFilter.m in Sources */,
+				06719CCD1BA01143003AD6A8 /* ImageShadowFilter.m in Sources */,
+				06719CD01BA012D6003AD6A8 /* DecoratorViewController.m in Sources */,
+				06719CC71B9FE6FC003AD6A8 /* UIImage+ImageComponent.m in Sources */,
+				06719CB91B9FE4C3003AD6A8 /* ImageFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06719C641B9FD98C003AD6A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06719CD51BA01935003AD6A8 /* DecoratorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06719C6B1B9FD98C003AD6A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06719C5C1B9FD98C003AD6A8 /* Decorator */;
+			targetProxy = 06719C6A1B9FD98C003AD6A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06719C6F1B9FD98C003AD6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06719C701B9FD98C003AD6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06719C721B9FD98C003AD6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		06719C731B9FD98C003AD6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		06719C751B9FD98C003AD6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DecoratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06719C761B9FD98C003AD6A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DecoratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06719C581B9FD98C003AD6A8 /* Build configuration list for PBXProject "Decorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06719C6F1B9FD98C003AD6A8 /* Debug */,
+				06719C701B9FD98C003AD6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06719C711B9FD98C003AD6A8 /* Build configuration list for PBXNativeTarget "Decorator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06719C721B9FD98C003AD6A8 /* Debug */,
+				06719C731B9FD98C003AD6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06719C741B9FD98C003AD6A8 /* Build configuration list for PBXNativeTarget "DecoratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06719C751B9FD98C003AD6A8 /* Debug */,
+				06719C761B9FD98C003AD6A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06719C551B9FD98C003AD6A8 /* Project object */;
+}

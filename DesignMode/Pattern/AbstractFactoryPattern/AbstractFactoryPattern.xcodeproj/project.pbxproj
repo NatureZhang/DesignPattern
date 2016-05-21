@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067793001B1F2892006E83A9 /* libAbstractFactoryPattern.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 067792F41B1F2892006E83A9 /* libAbstractFactoryPattern.a */; };
+		067793181B1F2921006E83A9 /* CpuBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 067793131B1F2921006E83A9 /* CpuBase.m */; };
+		067793191B1F2921006E83A9 /* IntelCPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 067793151B1F2921006E83A9 /* IntelCPU.m */; };
+		0677931A1B1F2921006E83A9 /* AMDCpu.m in Sources */ = {isa = PBXBuildFile; fileRef = 067793171B1F2921006E83A9 /* AMDCpu.m */; };
+		067793211B1F292D006E83A9 /* MainBoardBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0677931C1B1F292D006E83A9 /* MainBoardBase.m */; };
+		067793221B1F292D006E83A9 /* IntelMainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0677931E1B1F292D006E83A9 /* IntelMainBoard.m */; };
+		067793231B1F292D006E83A9 /* AMDMainBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 067793201B1F292D006E83A9 /* AMDMainBoard.m */; };
+		0677932A1B1F293B006E83A9 /* FactoryBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 067793251B1F293B006E83A9 /* FactoryBase.m */; };
+		0677932B1B1F293B006E83A9 /* IntelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 067793271B1F293B006E83A9 /* IntelFactory.m */; };
+		0677932C1B1F293B006E83A9 /* AMDFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 067793291B1F293B006E83A9 /* AMDFactory.m */; };
+		0677932F1B1F294B006E83A9 /* ComputerEngineer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0677932E1B1F294B006E83A9 /* ComputerEngineer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		067793011B1F2892006E83A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 067792EC1B1F2892006E83A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 067792F31B1F2892006E83A9;
+			remoteInfo = AbstractFactoryPattern;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		067792F21B1F2892006E83A9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		067792F41B1F2892006E83A9 /* libAbstractFactoryPattern.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAbstractFactoryPattern.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		067792FF1B1F2892006E83A9 /* AbstractFactoryPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractFactoryPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		067793051B1F2892006E83A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067793121B1F2921006E83A9 /* CpuBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CpuBase.h; sourceTree = "<group>"; };
+		067793131B1F2921006E83A9 /* CpuBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CpuBase.m; sourceTree = "<group>"; };
+		067793141B1F2921006E83A9 /* IntelCPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelCPU.h; sourceTree = "<group>"; };
+		067793151B1F2921006E83A9 /* IntelCPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelCPU.m; sourceTree = "<group>"; };
+		067793161B1F2921006E83A9 /* AMDCpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDCpu.h; sourceTree = "<group>"; };
+		067793171B1F2921006E83A9 /* AMDCpu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDCpu.m; sourceTree = "<group>"; };
+		0677931B1B1F292D006E83A9 /* MainBoardBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainBoardBase.h; sourceTree = "<group>"; };
+		0677931C1B1F292D006E83A9 /* MainBoardBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainBoardBase.m; sourceTree = "<group>"; };
+		0677931D1B1F292D006E83A9 /* IntelMainBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelMainBoard.h; sourceTree = "<group>"; };
+		0677931E1B1F292D006E83A9 /* IntelMainBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelMainBoard.m; sourceTree = "<group>"; };
+		0677931F1B1F292D006E83A9 /* AMDMainBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDMainBoard.h; sourceTree = "<group>"; };
+		067793201B1F292D006E83A9 /* AMDMainBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDMainBoard.m; sourceTree = "<group>"; };
+		067793241B1F293B006E83A9 /* FactoryBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryBase.h; sourceTree = "<group>"; };
+		067793251B1F293B006E83A9 /* FactoryBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryBase.m; sourceTree = "<group>"; };
+		067793261B1F293B006E83A9 /* IntelFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntelFactory.h; sourceTree = "<group>"; };
+		067793271B1F293B006E83A9 /* IntelFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntelFactory.m; sourceTree = "<group>"; };
+		067793281B1F293B006E83A9 /* AMDFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMDFactory.h; sourceTree = "<group>"; };
+		067793291B1F293B006E83A9 /* AMDFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMDFactory.m; sourceTree = "<group>"; };
+		0677932D1B1F294B006E83A9 /* ComputerEngineer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputerEngineer.h; sourceTree = "<group>"; };
+		0677932E1B1F294B006E83A9 /* ComputerEngineer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComputerEngineer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067792F11B1F2892006E83A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067792FC1B1F2892006E83A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067793001B1F2892006E83A9 /* libAbstractFactoryPattern.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067792EB1B1F2892006E83A9 = {
+			isa = PBXGroup;
+			children = (
+				067792F61B1F2892006E83A9 /* AbstractFactoryPattern */,
+				067793031B1F2892006E83A9 /* AbstractFactoryPatternTests */,
+				067792F51B1F2892006E83A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		067792F51B1F2892006E83A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067792F41B1F2892006E83A9 /* libAbstractFactoryPattern.a */,
+				067792FF1B1F2892006E83A9 /* AbstractFactoryPatternTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067792F61B1F2892006E83A9 /* AbstractFactoryPattern */ = {
+			isa = PBXGroup;
+			children = (
+				067793111B1F28FA006E83A9 /* MainBoardModel */,
+				067793101B1F28F4006E83A9 /* CupModel */,
+				0677930F1B1F28F0006E83A9 /* FactoryModel */,
+				0677930E1B1F28DF006E83A9 /* ComputerEngineerModel */,
+			);
+			path = AbstractFactoryPattern;
+			sourceTree = "<group>";
+		};
+		067793031B1F2892006E83A9 /* AbstractFactoryPatternTests */ = {
+			isa = PBXGroup;
+			children = (
+				067793041B1F2892006E83A9 /* Supporting Files */,
+			);
+			path = AbstractFactoryPatternTests;
+			sourceTree = "<group>";
+		};
+		067793041B1F2892006E83A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				067793051B1F2892006E83A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0677930E1B1F28DF006E83A9 /* ComputerEngineerModel */ = {
+			isa = PBXGroup;
+			children = (
+				0677932D1B1F294B006E83A9 /* ComputerEngineer.h */,
+				0677932E1B1F294B006E83A9 /* ComputerEngineer.m */,
+			);
+			name = ComputerEngineerModel;
+			sourceTree = "<group>";
+		};
+		0677930F1B1F28F0006E83A9 /* FactoryModel */ = {
+			isa = PBXGroup;
+			children = (
+				067793241B1F293B006E83A9 /* FactoryBase.h */,
+				067793251B1F293B006E83A9 /* FactoryBase.m */,
+				067793261B1F293B006E83A9 /* IntelFactory.h */,
+				067793271B1F293B006E83A9 /* IntelFactory.m */,
+				067793281B1F293B006E83A9 /* AMDFactory.h */,
+				067793291B1F293B006E83A9 /* AMDFactory.m */,
+			);
+			name = FactoryModel;
+			sourceTree = "<group>";
+		};
+		067793101B1F28F4006E83A9 /* CupModel */ = {
+			isa = PBXGroup;
+			children = (
+				067793121B1F2921006E83A9 /* CpuBase.h */,
+				067793131B1F2921006E83A9 /* CpuBase.m */,
+				067793141B1F2921006E83A9 /* IntelCPU.h */,
+				067793151B1F2921006E83A9 /* IntelCPU.m */,
+				067793161B1F2921006E83A9 /* AMDCpu.h */,
+				067793171B1F2921006E83A9 /* AMDCpu.m */,
+			);
+			name = CupModel;
+			sourceTree = "<group>";
+		};
+		067793111B1F28FA006E83A9 /* MainBoardModel */ = {
+			isa = PBXGroup;
+			children = (
+				0677931B1B1F292D006E83A9 /* MainBoardBase.h */,
+				0677931C1B1F292D006E83A9 /* MainBoardBase.m */,
+				0677931D1B1F292D006E83A9 /* IntelMainBoard.h */,
+				0677931E1B1F292D006E83A9 /* IntelMainBoard.m */,
+				0677931F1B1F292D006E83A9 /* AMDMainBoard.h */,
+				067793201B1F292D006E83A9 /* AMDMainBoard.m */,
+			);
+			name = MainBoardModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		067792F31B1F2892006E83A9 /* AbstractFactoryPattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067793081B1F2892006E83A9 /* Build configuration list for PBXNativeTarget "AbstractFactoryPattern" */;
+			buildPhases = (
+				067792F01B1F2892006E83A9 /* Sources */,
+				067792F11B1F2892006E83A9 /* Frameworks */,
+				067792F21B1F2892006E83A9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AbstractFactoryPattern;
+			productName = AbstractFactoryPattern;
+			productReference = 067792F41B1F2892006E83A9 /* libAbstractFactoryPattern.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		067792FE1B1F2892006E83A9 /* AbstractFactoryPatternTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0677930B1B1F2892006E83A9 /* Build configuration list for PBXNativeTarget "AbstractFactoryPatternTests" */;
+			buildPhases = (
+				067792FB1B1F2892006E83A9 /* Sources */,
+				067792FC1B1F2892006E83A9 /* Frameworks */,
+				067792FD1B1F2892006E83A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				067793021B1F2892006E83A9 /* PBXTargetDependency */,
+			);
+			name = AbstractFactoryPatternTests;
+			productName = AbstractFactoryPatternTests;
+			productReference = 067792FF1B1F2892006E83A9 /* AbstractFactoryPatternTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067792EC1B1F2892006E83A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = __Nature__;
+				TargetAttributes = {
+					067792F31B1F2892006E83A9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					067792FE1B1F2892006E83A9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 067792EF1B1F2892006E83A9 /* Build configuration list for PBXProject "AbstractFactoryPattern" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 067792EB1B1F2892006E83A9;
+			productRefGroup = 067792F51B1F2892006E83A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				067792F31B1F2892006E83A9 /* AbstractFactoryPattern */,
+				067792FE1B1F2892006E83A9 /* AbstractFactoryPatternTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067792FD1B1F2892006E83A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067792F01B1F2892006E83A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0677931A1B1F2921006E83A9 /* AMDCpu.m in Sources */,
+				0677932F1B1F294B006E83A9 /* ComputerEngineer.m in Sources */,
+				067793181B1F2921006E83A9 /* CpuBase.m in Sources */,
+				067793211B1F292D006E83A9 /* MainBoardBase.m in Sources */,
+				0677932C1B1F293B006E83A9 /* AMDFactory.m in Sources */,
+				067793221B1F292D006E83A9 /* IntelMainBoard.m in Sources */,
+				0677932A1B1F293B006E83A9 /* FactoryBase.m in Sources */,
+				0677932B1B1F293B006E83A9 /* IntelFactory.m in Sources */,
+				067793231B1F292D006E83A9 /* AMDMainBoard.m in Sources */,
+				067793191B1F2921006E83A9 /* IntelCPU.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		067792FB1B1F2892006E83A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		067793021B1F2892006E83A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 067792F31B1F2892006E83A9 /* AbstractFactoryPattern */;
+			targetProxy = 067793011B1F2892006E83A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		067793061B1F2892006E83A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		067793071B1F2892006E83A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		067793091B1F2892006E83A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0677930A1B1F2892006E83A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0677930C1B1F2892006E83A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AbstractFactoryPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0677930D1B1F2892006E83A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AbstractFactoryPatternTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067792EF1B1F2892006E83A9 /* Build configuration list for PBXProject "AbstractFactoryPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067793061B1F2892006E83A9 /* Debug */,
+				067793071B1F2892006E83A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067793081B1F2892006E83A9 /* Build configuration list for PBXNativeTarget "AbstractFactoryPattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067793091B1F2892006E83A9 /* Debug */,
+				0677930A1B1F2892006E83A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0677930B1B1F2892006E83A9 /* Build configuration list for PBXNativeTarget "AbstractFactoryPatternTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0677930C1B1F2892006E83A9 /* Debug */,
+				0677930D1B1F2892006E83A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 067792EC1B1F2892006E83A9 /* Project object */;
+}

@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A35A501BA157AE003E18AF /* ChainofResponsibility.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 06A35A4F1BA157AE003E18AF /* ChainofResponsibility.h */; };
+		06A35A521BA157AE003E18AF /* ChainofResponsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A35A511BA157AE003E18AF /* ChainofResponsibility.m */; };
+		06A35A581BA157AE003E18AF /* libChainofResponsibility.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A35A4C1BA157AE003E18AF /* libChainofResponsibility.a */; };
+		06A35A8E1BA15886003E18AF /* AttackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A35A8D1BA15886003E18AF /* AttackHandler.m */; };
+		06A35A911BA159ED003E18AF /* Attack.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A35A901BA159ED003E18AF /* Attack.m */; };
+		06A35A941BA15B67003E18AF /* MetalArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A35A931BA15B67003E18AF /* MetalArmor.m */; };
+		06A35A971BA15B9B003E18AF /* CrystalShield.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A35A961BA15B9B003E18AF /* CrystalShield.m */; };
+		06A35A9A1BA15CD4003E18AF /* SwordAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A35A991BA15CD4003E18AF /* SwordAttack.m */; };
+		06A35A9D1BA15CF9003E18AF /* MagicFireAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A35A9C1BA15CF9003E18AF /* MagicFireAttack.m */; };
+		06A35AA01BA15D21003E18AF /* LightningAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A35A9F1BA15D21003E18AF /* LightningAttack.m */; };
+		06A35AA51BA161F1003E18AF /* Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A35AA41BA161F1003E18AF /* Avatar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06A35A591BA157AE003E18AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06A35A441BA157AE003E18AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06A35A4B1BA157AE003E18AF;
+			remoteInfo = ChainofResponsibility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		06A35A4A1BA157AE003E18AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				06A35A501BA157AE003E18AF /* ChainofResponsibility.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06A35A4C1BA157AE003E18AF /* libChainofResponsibility.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libChainofResponsibility.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A35A4F1BA157AE003E18AF /* ChainofResponsibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChainofResponsibility.h; path = ChainofResponsibility/ChainofResponsibility.h; sourceTree = "<group>"; };
+		06A35A511BA157AE003E18AF /* ChainofResponsibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ChainofResponsibility.m; path = ChainofResponsibility/ChainofResponsibility.m; sourceTree = "<group>"; };
+		06A35A571BA157AE003E18AF /* ChainofResponsibilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainofResponsibilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06A35A5D1BA157AF003E18AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06A35A8C1BA15886003E18AF /* AttackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttackHandler.h; sourceTree = "<group>"; };
+		06A35A8D1BA15886003E18AF /* AttackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttackHandler.m; sourceTree = "<group>"; };
+		06A35A8F1BA159ED003E18AF /* Attack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attack.h; sourceTree = "<group>"; };
+		06A35A901BA159ED003E18AF /* Attack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attack.m; sourceTree = "<group>"; };
+		06A35A921BA15B67003E18AF /* MetalArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalArmor.h; sourceTree = "<group>"; };
+		06A35A931BA15B67003E18AF /* MetalArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetalArmor.m; sourceTree = "<group>"; };
+		06A35A951BA15B9B003E18AF /* CrystalShield.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrystalShield.h; sourceTree = "<group>"; };
+		06A35A961BA15B9B003E18AF /* CrystalShield.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrystalShield.m; sourceTree = "<group>"; };
+		06A35A981BA15CD4003E18AF /* SwordAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwordAttack.h; sourceTree = "<group>"; };
+		06A35A991BA15CD4003E18AF /* SwordAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwordAttack.m; sourceTree = "<group>"; };
+		06A35A9B1BA15CF9003E18AF /* MagicFireAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicFireAttack.h; sourceTree = "<group>"; };
+		06A35A9C1BA15CF9003E18AF /* MagicFireAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicFireAttack.m; sourceTree = "<group>"; };
+		06A35A9E1BA15D21003E18AF /* LightningAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LightningAttack.h; sourceTree = "<group>"; };
+		06A35A9F1BA15D21003E18AF /* LightningAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LightningAttack.m; sourceTree = "<group>"; };
+		06A35AA31BA161F1003E18AF /* Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
+		06A35AA41BA161F1003E18AF /* Avatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Avatar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06A35A491BA157AE003E18AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06A35A541BA157AE003E18AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A35A581BA157AE003E18AF /* libChainofResponsibility.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A35A431BA157AE003E18AF = {
+			isa = PBXGroup;
+			children = (
+				06A35A4F1BA157AE003E18AF /* ChainofResponsibility.h */,
+				06A35A511BA157AE003E18AF /* ChainofResponsibility.m */,
+				06A35A4E1BA157AE003E18AF /* ChainofResponsibility */,
+				06A35A5B1BA157AE003E18AF /* ChainofResponsibilityTests */,
+				06A35A4D1BA157AE003E18AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06A35A4D1BA157AE003E18AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06A35A4C1BA157AE003E18AF /* libChainofResponsibility.a */,
+				06A35A571BA157AE003E18AF /* ChainofResponsibilityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06A35A4E1BA157AE003E18AF /* ChainofResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				06A35AA11BA15D3B003E18AF /* Attack */,
+				06A35AA21BA15D4D003E18AF /* AttackHandler */,
+			);
+			path = ChainofResponsibility;
+			sourceTree = "<group>";
+		};
+		06A35A5B1BA157AE003E18AF /* ChainofResponsibilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				06A35A5C1BA157AF003E18AF /* Supporting Files */,
+			);
+			path = ChainofResponsibilityTests;
+			sourceTree = "<group>";
+		};
+		06A35A5C1BA157AF003E18AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06A35A5D1BA157AF003E18AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06A35AA11BA15D3B003E18AF /* Attack */ = {
+			isa = PBXGroup;
+			children = (
+				06A35A8F1BA159ED003E18AF /* Attack.h */,
+				06A35A901BA159ED003E18AF /* Attack.m */,
+				06A35A981BA15CD4003E18AF /* SwordAttack.h */,
+				06A35A991BA15CD4003E18AF /* SwordAttack.m */,
+				06A35A9B1BA15CF9003E18AF /* MagicFireAttack.h */,
+				06A35A9C1BA15CF9003E18AF /* MagicFireAttack.m */,
+				06A35A9E1BA15D21003E18AF /* LightningAttack.h */,
+				06A35A9F1BA15D21003E18AF /* LightningAttack.m */,
+			);
+			name = Attack;
+			sourceTree = "<group>";
+		};
+		06A35AA21BA15D4D003E18AF /* AttackHandler */ = {
+			isa = PBXGroup;
+			children = (
+				06A35A8C1BA15886003E18AF /* AttackHandler.h */,
+				06A35A8D1BA15886003E18AF /* AttackHandler.m */,
+				06A35A921BA15B67003E18AF /* MetalArmor.h */,
+				06A35A931BA15B67003E18AF /* MetalArmor.m */,
+				06A35A951BA15B9B003E18AF /* CrystalShield.h */,
+				06A35A961BA15B9B003E18AF /* CrystalShield.m */,
+				06A35AA31BA161F1003E18AF /* Avatar.h */,
+				06A35AA41BA161F1003E18AF /* Avatar.m */,
+			);
+			name = AttackHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06A35A4B1BA157AE003E18AF /* ChainofResponsibility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06A35A601BA157AF003E18AF /* Build configuration list for PBXNativeTarget "ChainofResponsibility" */;
+			buildPhases = (
+				06A35A481BA157AE003E18AF /* Sources */,
+				06A35A491BA157AE003E18AF /* Frameworks */,
+				06A35A4A1BA157AE003E18AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChainofResponsibility;
+			productName = ChainofResponsibility;
+			productReference = 06A35A4C1BA157AE003E18AF /* libChainofResponsibility.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		06A35A561BA157AE003E18AF /* ChainofResponsibilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06A35A631BA157AF003E18AF /* Build configuration list for PBXNativeTarget "ChainofResponsibilityTests" */;
+			buildPhases = (
+				06A35A531BA157AE003E18AF /* Sources */,
+				06A35A541BA157AE003E18AF /* Frameworks */,
+				06A35A551BA157AE003E18AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06A35A5A1BA157AE003E18AF /* PBXTargetDependency */,
+			);
+			name = ChainofResponsibilityTests;
+			productName = ChainofResponsibilityTests;
+			productReference = 06A35A571BA157AE003E18AF /* ChainofResponsibilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06A35A441BA157AE003E18AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = __Nature__;
+				TargetAttributes = {
+					06A35A4B1BA157AE003E18AF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					06A35A561BA157AE003E18AF = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 06A35A471BA157AE003E18AF /* Build configuration list for PBXProject "ChainofResponsibility" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 06A35A431BA157AE003E18AF;
+			productRefGroup = 06A35A4D1BA157AE003E18AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06A35A4B1BA157AE003E18AF /* ChainofResponsibility */,
+				06A35A561BA157AE003E18AF /* ChainofResponsibilityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06A35A551BA157AE003E18AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06A35A481BA157AE003E18AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A35AA51BA161F1003E18AF /* Avatar.m in Sources */,
+				06A35AA01BA15D21003E18AF /* LightningAttack.m in Sources */,
+				06A35A971BA15B9B003E18AF /* CrystalShield.m in Sources */,
+				06A35A9D1BA15CF9003E18AF /* MagicFireAttack.m in Sources */,
+				06A35A9A1BA15CD4003E18AF /* SwordAttack.m in Sources */,
+				06A35A911BA159ED003E18AF /* Attack.m in Sources */,
+				06A35A8E1BA15886003E18AF /* AttackHandler.m in Sources */,
+				06A35A521BA157AE003E18AF /* ChainofResponsibility.m in Sources */,
+				06A35A941BA15B67003E18AF /* MetalArmor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06A35A531BA157AE003E18AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06A35A5A1BA157AE003E18AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06A35A4B1BA157AE003E18AF /* ChainofResponsibility */;
+			targetProxy = 06A35A591BA157AE003E18AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06A35A5E1BA157AF003E18AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		06A35A5F1BA157AF003E18AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06A35A611BA157AF003E18AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		06A35A621BA157AF003E18AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		06A35A641BA157AF003E18AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChainofResponsibilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06A35A651BA157AF003E18AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChainofResponsibilityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06A35A471BA157AE003E18AF /* Build configuration list for PBXProject "ChainofResponsibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A35A5E1BA157AF003E18AF /* Debug */,
+				06A35A5F1BA157AF003E18AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06A35A601BA157AF003E18AF /* Build configuration list for PBXNativeTarget "ChainofResponsibility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A35A611BA157AF003E18AF /* Debug */,
+				06A35A621BA157AF003E18AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06A35A631BA157AF003E18AF /* Build configuration list for PBXNativeTarget "ChainofResponsibilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06A35A641BA157AF003E18AF /* Debug */,
+				06A35A651BA157AF003E18AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06A35A441BA157AE003E18AF /* Project object */;
+}

@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0673FF5F1B032E0E00266BF7 /* libSingleTon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0673FF531B032E0E00266BF7 /* libSingleTon.a */; };
+		0673FF711B032E3100266BF7 /* ARC_SingleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0673FF6E1B032E3100266BF7 /* ARC_SingleClass.m */; };
+		0673FF721B032E3100266BF7 /* MRC_SingleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 0673FF701B032E3100266BF7 /* MRC_SingleClass.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0673FF601B032E0E00266BF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0673FF4B1B032E0E00266BF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0673FF521B032E0E00266BF7;
+			remoteInfo = SingleTon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0673FF511B032E0E00266BF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0673FF531B032E0E00266BF7 /* libSingleTon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSingleTon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0673FF5E1B032E0E00266BF7 /* SingleTonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SingleTonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0673FF641B032E0E00266BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0673FF6D1B032E3100266BF7 /* ARC_SingleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARC_SingleClass.h; sourceTree = "<group>"; };
+		0673FF6E1B032E3100266BF7 /* ARC_SingleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARC_SingleClass.m; sourceTree = "<group>"; };
+		0673FF6F1B032E3100266BF7 /* MRC_SingleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRC_SingleClass.h; sourceTree = "<group>"; };
+		0673FF701B032E3100266BF7 /* MRC_SingleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRC_SingleClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0673FF501B032E0E00266BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673FF5B1B032E0E00266BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0673FF5F1B032E0E00266BF7 /* libSingleTon.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0673FF4A1B032E0E00266BF7 = {
+			isa = PBXGroup;
+			children = (
+				0673FF551B032E0E00266BF7 /* SingleTon */,
+				0673FF621B032E0E00266BF7 /* SingleTonTests */,
+				0673FF541B032E0E00266BF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0673FF541B032E0E00266BF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0673FF531B032E0E00266BF7 /* libSingleTon.a */,
+				0673FF5E1B032E0E00266BF7 /* SingleTonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0673FF551B032E0E00266BF7 /* SingleTon */ = {
+			isa = PBXGroup;
+			children = (
+				0673FF6D1B032E3100266BF7 /* ARC_SingleClass.h */,
+				0673FF6E1B032E3100266BF7 /* ARC_SingleClass.m */,
+				0673FF6F1B032E3100266BF7 /* MRC_SingleClass.h */,
+				0673FF701B032E3100266BF7 /* MRC_SingleClass.m */,
+			);
+			path = SingleTon;
+			sourceTree = "<group>";
+		};
+		0673FF621B032E0E00266BF7 /* SingleTonTests */ = {
+			isa = PBXGroup;
+			children = (
+				0673FF631B032E0E00266BF7 /* Supporting Files */,
+			);
+			path = SingleTonTests;
+			sourceTree = "<group>";
+		};
+		0673FF631B032E0E00266BF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0673FF641B032E0E00266BF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0673FF521B032E0E00266BF7 /* SingleTon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0673FF671B032E0E00266BF7 /* Build configuration list for PBXNativeTarget "SingleTon" */;
+			buildPhases = (
+				0673FF4F1B032E0E00266BF7 /* Sources */,
+				0673FF501B032E0E00266BF7 /* Frameworks */,
+				0673FF511B032E0E00266BF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingleTon;
+			productName = SingleTon;
+			productReference = 0673FF531B032E0E00266BF7 /* libSingleTon.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0673FF5D1B032E0E00266BF7 /* SingleTonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0673FF6A1B032E0E00266BF7 /* Build configuration list for PBXNativeTarget "SingleTonTests" */;
+			buildPhases = (
+				0673FF5A1B032E0E00266BF7 /* Sources */,
+				0673FF5B1B032E0E00266BF7 /* Frameworks */,
+				0673FF5C1B032E0E00266BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0673FF611B032E0E00266BF7 /* PBXTargetDependency */,
+			);
+			name = SingleTonTests;
+			productName = SingleTonTests;
+			productReference = 0673FF5E1B032E0E00266BF7 /* SingleTonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0673FF4B1B032E0E00266BF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = __Nature__;
+				TargetAttributes = {
+					0673FF521B032E0E00266BF7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0673FF5D1B032E0E00266BF7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 0673FF4E1B032E0E00266BF7 /* Build configuration list for PBXProject "SingleTon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0673FF4A1B032E0E00266BF7;
+			productRefGroup = 0673FF541B032E0E00266BF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0673FF521B032E0E00266BF7 /* SingleTon */,
+				0673FF5D1B032E0E00266BF7 /* SingleTonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0673FF5C1B032E0E00266BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0673FF4F1B032E0E00266BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0673FF711B032E3100266BF7 /* ARC_SingleClass.m in Sources */,
+				0673FF721B032E3100266BF7 /* MRC_SingleClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673FF5A1B032E0E00266BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0673FF611B032E0E00266BF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0673FF521B032E0E00266BF7 /* SingleTon */;
+			targetProxy = 0673FF601B032E0E00266BF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0673FF651B032E0E00266BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0673FF661B032E0E00266BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0673FF681B032E0E00266BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0673FF691B032E0E00266BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0673FF6B1B032E0E00266BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SingleTonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0673FF6C1B032E0E00266BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SingleTonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0673FF4E1B032E0E00266BF7 /* Build configuration list for PBXProject "SingleTon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0673FF651B032E0E00266BF7 /* Debug */,
+				0673FF661B032E0E00266BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0673FF671B032E0E00266BF7 /* Build configuration list for PBXNativeTarget "SingleTon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0673FF681B032E0E00266BF7 /* Debug */,
+				0673FF691B032E0E00266BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0673FF6A1B032E0E00266BF7 /* Build configuration list for PBXNativeTarget "SingleTonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0673FF6B1B032E0E00266BF7 /* Debug */,
+				0673FF6C1B032E0E00266BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0673FF4B1B032E0E00266BF7 /* Project object */;
+}

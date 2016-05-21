@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065FBC111B0A0A9A00D1A5BB /* OperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 065FBC101B0A0A9A00D1A5BB /* OperationManager.m */; };
+		0673000C1B03570C00266BF7 /* libSimpleFactory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 067300001B03570C00266BF7 /* libSimpleFactory.a */; };
+		067300271B03573300266BF7 /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0673001C1B03573300266BF7 /* OperationFactory.m */; };
+		067300281B03573300266BF7 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0673001E1B03573300266BF7 /* Operation.m */; };
+		067300291B03573300266BF7 /* OperationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 067300201B03573300266BF7 /* OperationAdd.m */; };
+		0673002A1B03573300266BF7 /* OperationSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 067300221B03573300266BF7 /* OperationSub.m */; };
+		0673002B1B03573300266BF7 /* OperationMultiply.m in Sources */ = {isa = PBXBuildFile; fileRef = 067300241B03573300266BF7 /* OperationMultiply.m */; };
+		0673002C1B03573300266BF7 /* OperationDivide.m in Sources */ = {isa = PBXBuildFile; fileRef = 067300261B03573300266BF7 /* OperationDivide.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0673000D1B03570C00266BF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0673FFF81B03570C00266BF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0673FFFF1B03570C00266BF7;
+			remoteInfo = SimpleFactory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0673FFFE1B03570C00266BF7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		065FBC0F1B0A0A9A00D1A5BB /* OperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationManager.h; sourceTree = "<group>"; };
+		065FBC101B0A0A9A00D1A5BB /* OperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationManager.m; sourceTree = "<group>"; };
+		067300001B03570C00266BF7 /* libSimpleFactory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSimpleFactory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0673000B1B03570C00266BF7 /* SimpleFactoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleFactoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		067300111B03570C00266BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0673001A1B03573300266BF7 /* OperationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationProtocol.h; sourceTree = "<group>"; };
+		0673001B1B03573300266BF7 /* OperationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationFactory.h; sourceTree = "<group>"; };
+		0673001C1B03573300266BF7 /* OperationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
+		0673001D1B03573300266BF7 /* Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Operation.h; sourceTree = "<group>"; };
+		0673001E1B03573300266BF7 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
+		0673001F1B03573300266BF7 /* OperationAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationAdd.h; sourceTree = "<group>"; };
+		067300201B03573300266BF7 /* OperationAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationAdd.m; sourceTree = "<group>"; };
+		067300211B03573300266BF7 /* OperationSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationSub.h; sourceTree = "<group>"; };
+		067300221B03573300266BF7 /* OperationSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationSub.m; sourceTree = "<group>"; };
+		067300231B03573300266BF7 /* OperationMultiply.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationMultiply.h; sourceTree = "<group>"; };
+		067300241B03573300266BF7 /* OperationMultiply.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationMultiply.m; sourceTree = "<group>"; };
+		067300251B03573300266BF7 /* OperationDivide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OperationDivide.h; sourceTree = "<group>"; };
+		067300261B03573300266BF7 /* OperationDivide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OperationDivide.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067300081B03570C00266BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0673000C1B03570C00266BF7 /* libSimpleFactory.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673FFFD1B03570C00266BF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067300011B03570C00266BF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067300001B03570C00266BF7 /* libSimpleFactory.a */,
+				0673000B1B03570C00266BF7 /* SimpleFactoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067300021B03570C00266BF7 /* SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				0673001A1B03573300266BF7 /* OperationProtocol.h */,
+				0673001B1B03573300266BF7 /* OperationFactory.h */,
+				0673001C1B03573300266BF7 /* OperationFactory.m */,
+				065FBC0F1B0A0A9A00D1A5BB /* OperationManager.h */,
+				065FBC101B0A0A9A00D1A5BB /* OperationManager.m */,
+				0673001D1B03573300266BF7 /* Operation.h */,
+				0673001E1B03573300266BF7 /* Operation.m */,
+				0673001F1B03573300266BF7 /* OperationAdd.h */,
+				067300201B03573300266BF7 /* OperationAdd.m */,
+				067300211B03573300266BF7 /* OperationSub.h */,
+				067300221B03573300266BF7 /* OperationSub.m */,
+				067300231B03573300266BF7 /* OperationMultiply.h */,
+				067300241B03573300266BF7 /* OperationMultiply.m */,
+				067300251B03573300266BF7 /* OperationDivide.h */,
+				067300261B03573300266BF7 /* OperationDivide.m */,
+			);
+			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		0673000F1B03570C00266BF7 /* SimpleFactoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				067300101B03570C00266BF7 /* Supporting Files */,
+			);
+			path = SimpleFactoryTests;
+			sourceTree = "<group>";
+		};
+		067300101B03570C00266BF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				067300111B03570C00266BF7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0673FFF71B03570C00266BF7 = {
+			isa = PBXGroup;
+			children = (
+				067300021B03570C00266BF7 /* SimpleFactory */,
+				0673000F1B03570C00266BF7 /* SimpleFactoryTests */,
+				067300011B03570C00266BF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0673000A1B03570C00266BF7 /* SimpleFactoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067300171B03570C00266BF7 /* Build configuration list for PBXNativeTarget "SimpleFactoryTests" */;
+			buildPhases = (
+				067300071B03570C00266BF7 /* Sources */,
+				067300081B03570C00266BF7 /* Frameworks */,
+				067300091B03570C00266BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0673000E1B03570C00266BF7 /* PBXTargetDependency */,
+			);
+			name = SimpleFactoryTests;
+			productName = SimpleFactoryTests;
+			productReference = 0673000B1B03570C00266BF7 /* SimpleFactoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0673FFFF1B03570C00266BF7 /* SimpleFactory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067300141B03570C00266BF7 /* Build configuration list for PBXNativeTarget "SimpleFactory" */;
+			buildPhases = (
+				0673FFFC1B03570C00266BF7 /* Sources */,
+				0673FFFD1B03570C00266BF7 /* Frameworks */,
+				0673FFFE1B03570C00266BF7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleFactory;
+			productName = SimpleFactory;
+			productReference = 067300001B03570C00266BF7 /* libSimpleFactory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0673FFF81B03570C00266BF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = __Nature__;
+				TargetAttributes = {
+					0673000A1B03570C00266BF7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					0673FFFF1B03570C00266BF7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 0673FFFB1B03570C00266BF7 /* Build configuration list for PBXProject "SimpleFactory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0673FFF71B03570C00266BF7;
+			productRefGroup = 067300011B03570C00266BF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0673FFFF1B03570C00266BF7 /* SimpleFactory */,
+				0673000A1B03570C00266BF7 /* SimpleFactoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067300091B03570C00266BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067300071B03570C00266BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673FFFC1B03570C00266BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0673002C1B03573300266BF7 /* OperationDivide.m in Sources */,
+				0673002B1B03573300266BF7 /* OperationMultiply.m in Sources */,
+				0673002A1B03573300266BF7 /* OperationSub.m in Sources */,
+				067300271B03573300266BF7 /* OperationFactory.m in Sources */,
+				065FBC111B0A0A9A00D1A5BB /* OperationManager.m in Sources */,
+				067300281B03573300266BF7 /* Operation.m in Sources */,
+				067300291B03573300266BF7 /* OperationAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0673000E1B03570C00266BF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0673FFFF1B03570C00266BF7 /* SimpleFactory */;
+			targetProxy = 0673000D1B03570C00266BF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		067300121B03570C00266BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		067300131B03570C00266BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		067300151B03570C00266BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		067300161B03570C00266BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"../**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		067300181B03570C00266BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleFactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		067300191B03570C00266BF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleFactoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067300141B03570C00266BF7 /* Build configuration list for PBXNativeTarget "SimpleFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067300151B03570C00266BF7 /* Debug */,
+				067300161B03570C00266BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067300171B03570C00266BF7 /* Build configuration list for PBXNativeTarget "SimpleFactoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067300181B03570C00266BF7 /* Debug */,
+				067300191B03570C00266BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0673FFFB1B03570C00266BF7 /* Build configuration list for PBXProject "SimpleFactory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067300121B03570C00266BF7 /* Debug */,
+				067300131B03570C00266BF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0673FFF81B03570C00266BF7 /* Project object */;
+}
